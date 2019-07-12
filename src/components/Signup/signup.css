@@ -1,0 +1,98 @@
+.container-fluid{
+    /* padding: 0px; */
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+
+.signuprow{
+    height: 100vh;
+}
+.signupbg{
+    background: url('../assets/twitterbg.jpg');
+    max-height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+ .signupoverlay{
+    height:100vh;
+    width: 100%;
+    content: '';
+    /* opacity: 0.8; */
+    position: absolute;
+    top: 0;
+    color:white;
+    font-size: 15px;
+    left: 0; 
+    background: linear-gradient(
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+    ) 
+
+   } 
+   
+.signup{
+    margin-top: 1.2%;
+    border-radius: 18px;
+    margin-left: 35%;
+    height: 88.7vh;
+    width:30vw;
+    border:2px solid white;
+    background-color: #5eb4f5;
+    padding-left: 3%;
+
+   }
+   .navv{
+    background-color: white;
+    color:#006dbf;
+    font-size: 15px;
+   }
+
+   .icondiv{
+       margin-top: 3%;
+       padding-left: 22%;
+   }
+
+   .inputdiv{
+       margin-top: 5%;
+   }
+
+   .form-control{
+       width:26vw;
+       border-radius: 15px;
+       border-color: white;
+   }
+
+   .btn{
+    width:26vw;
+    font-weight: bold;
+    border-radius: 15px;
+    border-color: white;
+    opacity: 0.9;
+   }
+
+   button:hover {
+    opacity:1;
+    border-color: white;
+  }
+
+   input[type=text]:focus,input[type=email]:focus, input[type=password]:focus {
+    background-color: rgb(225, 242, 247);
+    outline: white;
+    border-color: white;
+  }
+
+  input.error{
+      border: 1px solid rgba(163, 1, 1, 0.959);
+  }
+
+.errorMessage{
+      color: rgba(163, 1, 1, 0.959);
+  font-size: 1em;
+  display: relative;
+  }
+
+ 

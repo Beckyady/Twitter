@@ -21,20 +21,21 @@ export default class Dashboard extends React.Component {
                     </div>
                     <div className='col-sm-6 whitepart'>
                         <div className='whitediv'>
-                            <div><i class="fa fa-fw fa-twitter fa-3x" ></i> <a href="#" class="btn btn-outline-primary btn-lg btn1" role="button" aria-pressed="true">Log in</a></div>
+                            <div><i class="fa fa-fw fa-twitter fa-3x" ></i> <a href="/login" class="btn btn-outline-primary btn-lg btn1" role="button" aria-pressed="true">Log in</a></div>
                             <p className='text1'><span >See what’s happening in<br></br>the world right now</span></p>
 
                             <p className='text2'><span>Join Twitter today.</span></p>
                             <div style={{ lineHeight: 3 }}>
-                                <a href="#" class="btn btn-primary btn-lg btn2" role="button" aria-pressed="true" >Sign up</a><br></br>
-                                <a href="#" class="btn btn-outline-primary btn-lg btn3" role="button" aria-pressed="true">Log in</a>
+                                <a href="/signup" class="btn btn-primary btn-lg btn2" role="button" aria-pressed="true" >Sign up</a><br></br>
+                                <a href="/login" class="btn btn-outline-primary btn-lg btn3" role="button" aria-pressed="true">Log in</a>
                             </div>
 
                         </div>
 
                     </div>
                 </div>
-                <nav class="nav">
+                
+                <nav className="nav dashnav">
                     <a class="nav-link" href="#">About</a>
                     <a class="nav-link" href="#">Help Center</a>
                     <a class="nav-link" href="#">Blogs</a>
@@ -56,6 +57,7 @@ export default class Dashboard extends React.Component {
                     
                     
                 </nav>
+               
 
 
             </div>
